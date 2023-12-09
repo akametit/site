@@ -1,0 +1,169 @@
+body{
+	background-color: orange;
+}
+p{
+	font-size: 50px;
+	color: darkblue;
+	background-color:yellow ;
+}
+div{
+	width: 100px;
+	height: 100px;
+}
+.d1{
+	background-color: lime;
+	animation-name: example1;
+	animation-duration: 5s;
+}
+@keyframes example1{
+	from{background-color: lime;}
+	to{background-color: hotpink;}
+}
+.d2{
+	background-color: lime;
+	animation-name: example2;
+	animation-duration: 5s;
+}
+@keyframes example2{
+	0%{background-color: lime;}
+	25%{background-color: hotpink;}
+	50%{background-color: yellow;}
+	75%{background-color: indigo;}
+	100%{background-color: red;}
+}
+.d3{
+	background-color: lime;
+	animation-name: example3;
+	position: relative;
+	animation-duration: 10s;
+}
+@keyframes example3{
+	0%{background-color: lime; left: 0px; top:0px ;}
+	25%{background-color: hotpink;left: 200px; top:0px ;}
+	50%{background-color: yellow;left: 200px; top:200px ;}
+	75%{background-color: blue;left: 0px; top:200px ;}
+	100%{background-color: red;left: 0px; top:0px ;}
+}
+.d4{
+	background-color: blue;
+	animation-name: example4;
+	animation-duration: 5s;
+}
+@keyframes example4{
+	0%{background-color: blue;}
+	100%{background-color: black;}
+}
+.d5{
+	background-color: yellow;
+	animation-name: example5;
+	animation-duration: 5s;
+}
+@keyframes example5{
+	0%{background-color: yellow;}
+	100%{background-color: red;}
+}
+.d6{
+	background-color: lime;
+	animation-name: example6;
+	position: relative;
+	animation-duration: 10s;
+	animation-delay: 5s;
+}
+@keyframes example6{
+	0%{background-color: lime; left: 0px; top:0px ;}
+	25%{background-color: hotpink;left: 200px; top:0px ;}
+	50%{background-color: yellow;left: 200px; top:200px ;}
+	75%{background-color: blue;left: 0px; top:200px ;}
+	100%{background-color: red;left: 0px; top:0px ;}
+}
+.d7{
+	background-color: lime;
+	animation-name: example7;
+	position: relative;
+	animation-duration: 10s;
+	animation-delay: -5s;
+}
+@keyframes example7{
+	0%{background-color: lime; left: 0px; top:0px ;}
+	25%{background-color: hotpink;left: 200px; top:0px ;}
+	50%{background-color: yellow;left: 200px; top:200px ;}
+	75%{background-color: blue;left: 0px; top:200px ;}
+	100%{background-color: red;left: 0px; top:0px ;}
+}
+.d8{
+	background-color: lime;
+	animation-name: example8;
+	position: relative;
+	animation-duration: 10s;
+	animation-delay: 5s;
+	animation-iteration-count: infinite;
+}
+@keyframes example8{
+	0%{background-color: lime; left: 0px; top:0px ;}
+	25%{background-color: hotpink;left: 200px; top:0px ;}
+	50%{background-color: yellow;left: 200px; top:200px ;}
+	75%{background-color: blue;left: 0px; top:200px ;}
+	100%{background-color: red;left: 0px; top:0px ;}
+}
+.d9{
+	background-color: lime;
+	animation-name: example9;
+	position: relative;
+	animation-duration: 10s;
+	animation-delay: 5s;
+	animation-iteration-count: infinite;
+	animation-duration: revert;
+}
+@keyframes example9{
+	0%{background-color: lime; left: 0px; top:0px ;}
+	25%{background-color: hotpink;left: 200px; top:0px ;}
+	50%{background-color: yellow;left: 200px; top:200px ;}
+	75%{background-color: blue;left: 0px; top:200px ;}
+	100%{background-color: red;left: 0px; top:0px ;
+}}
+.d10{
+	background-color: lime;
+	animation-name: example10;
+	position: relative;
+	animation-duration: 10s;
+	animation-delay: 5s;
+	animation-iteration-count: infinite;
+	animation-duration:alternate- ;
+}
+@keyframes example10{
+	0%{background-color: lime; left: 0px; top:0px ;}
+	25%{background-color: hotpink;left: 200px; top:0px ;}
+	50%{background-color: yellow;left: 200px; top:200px ;}
+	75%{background-color: blue;left: 0px; top:200px ;}
+	100%{background-color: red;left: 0px; top:0px ;
+		}
+	}
+	.d11{
+	background-color: lime;
+	animation-name: example7;
+	position: relative;
+	animation-duration: 10s;
+	animation-delay: 5s;
+	animation-iteration-count: 3;
+}
+@keyframes example11
+	0%{background-color: lime; left: 0px; top:0px ;}
+	25%{background-color: hotpink;left: 200px; top:0px ;}
+	50%{background-color: yellow;left: 200px; top:200px ;}
+	75%{background-color: blue;left: 0px; top:200px ;}
+	100%{background-color: red;left: 0px; top:0px ;}
+}
+
+.d12{
+	background-color: lime;
+	animation-name: example2;
+	animation-duration: 5s;
+}
+@keyframes example12
+	0%{background-color: lime;}
+	25%{background-color: hotpink;}
+	50%{background-color: yellow;}
+	75%{background-color: indigo;}
+	100%{background-color: red;}
+ 
+

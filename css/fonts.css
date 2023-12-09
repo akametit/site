@@ -1,0 +1,46 @@
+
+@import url
+
+body{
+	background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fgifer.com%2Fru%2Fgifs%2F%25D0%25BF%25D0%25B8%25D0%25BD%25D0%25B3%25D0%25B2%25D0%25B8%25D0%25BD&psig=AOvVaw276T9Cx3ToArQyFF5HbeHR&ust=1696502746378000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKC1mq6b3IEDFQAAAAAdAAAAABAn);
+	background-size: 200px;
+	background-position: 100% 100%;
+	background-attachment: fixed;
+	background-repeat:no-repeat ;
+}
+p{
+	font-size: 50px;
+	color: orange;
+}
+.p1{
+	text-align: center;
+	background-color: lightcoral;
+}
+.p2{
+	font-family: Tines , "Tines New ronan", georgein,serif ;
+	font-size: italic;
+}
+.p3{
+	font-family: sans-serif;
+	font-weight: 700;
+}
+.p4{
+	font-family: monospace;
+	font-style: italic;
+	text-shadow: 2px -2px green, 4px -4px brown;
+}
+.p5{
+	font-family: cursive;
+}
+.p6{
+	font-family: 'Lobster',cursive;
+	text-shadow: 0px 0px 10px green;
+}
+.p7{
+	font-family: 'Rubik Dirt', cursive;
+    text-shadow: 2px -2px green;
+}
+.p8{
+	font-family: 'Amatic SC', cursive;
+
+}

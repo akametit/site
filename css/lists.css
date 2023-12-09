@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Рубік+Місячні камені&display=swap');
+body {
+	background-color: lightblue;
+}
+p{
+	font-size: 50px;
+    text-align: center;
+    background-color: indigo;
+    color: orange;
+    font-family:'Рубік Мунрокс', cursive;
+}
+ul{
+	font-size: 24px;
+	color: purple;
+}
